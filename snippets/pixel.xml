@@ -23,6 +23,10 @@
           fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
           revision="thirteen" />
 
+  <remote name="pixel-magic"
+          fetch="https://github.com/PixelMagic-OS/"
+          revision="thirteen-plus" />
+
   <!-- External repos -->
   <project path="external/avb" name="external_avb" remote="pixel" />
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
