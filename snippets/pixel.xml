@@ -118,6 +118,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel-plus" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="pixel-magic" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="pixel" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="pixel" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="pixel" />
