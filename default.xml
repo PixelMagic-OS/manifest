@@ -1407,7 +1407,7 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
 
-  <!-- PixelOS -->
+  <!-- PixelMagic -->
   <include name="snippets/remove.xml" />
   <include name="snippets/external.xml" />
   <include name="snippets/custom.xml" />
