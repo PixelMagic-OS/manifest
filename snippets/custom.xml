@@ -5,17 +5,13 @@
            fetch="https://github.com/PixelOS-AOSP"
            revision="refs/heads/fourteen" />
 
-  <remote  name="PixelOS-Gitlab"
-           fetch="https://gitlab.com/PixelOS-AOSP"
-           revision="refs/heads/fourteen" />
-
-  <remote  name="PixelOS-Devices-Gitlab"
-           fetch="https://gitlab.com/PixelOS-Devices"
+  <remote  name="pixel-magic-gitlab"
+           fetch="https://gitlab.com/magicxavi"
            revision="refs/heads/fourteen" />
 
   <remote name="pixel-magic" 
           fetch="https://github.com/PixelMagic-OS/" 
-          revision="fourteen" /> 
+          revision="fourteen" />
 
   <!-- Rootdir -->
   <project path="bionic" name="bionic" groups="pdk" remote="PixelOS" />
@@ -76,6 +72,6 @@
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel-magic" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="PixelOS" />
   <project path="vendor/microsoft" name="vendor_microsoft" remote="PixelOS" />
-  <project path="vendor/gms" name="vendor_gms" clone-depth="1" remote="PixelOS-Devices-Gitlab" />
+  <project path="vendor/gms" name="vendor_gms" clone-depth="1" remote="pixel-magic-gitlab" />
 
 </manifest>
