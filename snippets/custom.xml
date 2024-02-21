@@ -39,8 +39,8 @@
   </project>
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="PixelOS" />
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="PixelOS" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="pixel-magic" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pixel-magic" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="PixelOS" />
 
   <!-- Hardware -->
