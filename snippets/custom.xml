@@ -38,8 +38,8 @@
   <project path="external/jemalloc_new" name="external_jemalloc_new" groups="pdk" remote="PixelOS" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="PixelOS" />
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="PixelOS" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="pixel-magic" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pixel-magic" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="PixelOS" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="PixelOS" />
 
