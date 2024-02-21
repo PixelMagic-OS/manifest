@@ -147,6 +147,7 @@
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/apps/Launcher3" />
 
   <!-- System -->
   <remove-project name="platform/system/bpf"/>
