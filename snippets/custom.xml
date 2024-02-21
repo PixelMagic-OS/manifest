@@ -49,6 +49,7 @@
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk" remote="PixelOS" />
   <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="PixelOS" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="PixelOS" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="pixel-magic" />
 
   <!-- System -->
   <project path="system/core" name="system_core" groups="pdk" remote="PixelOS" />
