@@ -38,6 +38,7 @@
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="pixel-magic" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pixel-magic" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="PixelOS" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="pixel-magic" />
 
   <!-- Hardware -->
   <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="PixelOS" />
