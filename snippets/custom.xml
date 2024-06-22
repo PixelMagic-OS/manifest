@@ -25,7 +25,7 @@
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="pixel-magic" />
 
   <!-- Build -->
-  <project path="build/make" name="build" groups="pdk" remote="PixelOS">
+  <project path="build/make" name="build_make" groups="pdk" remote="pixel-magic">
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
     <linkfile dest="build/core" src="core" />
@@ -33,7 +33,7 @@
     <linkfile dest="build/target" src="target" />
     <linkfile dest="build/tools" src="tools" />
   </project>
-  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="PixelOS">
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="pixel-magic">
     <linkfile dest="Android.bp" src="root.bp" />
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
   </project>
