@@ -9,6 +9,10 @@
            fetch="https://gitlab.com/PixelOS-AOSP"
            revision="refs/heads/fourteen" />
 
+  <remote name="pixel-magic" 
+          fetch="https://github.com/PixelMagic-OS/" 
+          revision="fourteen" /> 
+
   <!-- Rootdir -->
   <project path="bionic" name="bionic" groups="pdk" remote="PixelOS" />
 
